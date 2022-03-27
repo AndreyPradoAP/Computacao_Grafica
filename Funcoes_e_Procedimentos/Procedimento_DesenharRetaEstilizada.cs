@@ -1,4 +1,4 @@
-public void RetaEstilizada(PaintEventArgs e, float[] estiloLinha, Color cor, int espessuraReta, int x0, int y0, int x, int y)
+public void desenharRetaEstilizada(PaintEventArgs e, float[] estiloLinha, Color cor, int espessuraReta, int x0, int y0, int x, int y)
         {
             Pen caneta = new Pen(cor, espessuraReta);
             caneta.DashPattern = estiloLinha;
